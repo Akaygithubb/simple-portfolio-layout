@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Akay's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="./">Home</a></li>
+                    <li><a href="./">About</a></li>
+                    <li><a href="./">Services</a></li>
+                    <li><a href="./">Projects</a></li>
+                    <li><a href="./">Contact Me</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi, My name is <span class="purple">Akay</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btns">Download Resume</button>
+                    <button class="btns">Visit GitHub</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="./bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="./html.png" alt="" class="image-top">
+                    <div class="vertical-title">HTML Developer</div>
+                    <div class="vertical-desc">I am a proficient HTML developer, crafting responsive and user-friendly web pages with clean, semantic code for an enhanced user experience.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="./nodejs.png" alt="" class="image-top">
+                    <div class="vertical-title">NodeJs Developer</div>
+                    <div class="vertical-desc">As a skilled Node.js developer, I build scalable and high-performance server-side applications, utilizing JavaScript for efficient backend solutions.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="./react.png" alt="" class="image-top">
+                    <div class="vertical-title">React Developer</div>
+                    <div class="vertical-desc">I specialize in React, creating dynamic and interactive user interfaces with reusable components and efficient state management for modern web apps.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="./blockchain.png" alt="" class="image-top">
+                    <div class="vertical-title">BlockChain Developer</div>
+                    <div class="vertical-desc">I am a blockchain developer, designing decentralized applications and smart contracts with secure, transparent, and efficient blockchain technology for various industries.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="./flutter.png" alt="" class="image-top">
+                    <div class="vertical-title">Flutter Developer</div>
+                    <div class="vertical-desc">I develop cross-platform mobile applications using Flutter, delivering high-quality native performance and engaging user experiences on both Android and iOS.
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Akay's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="./">Whatsapp</a></li>
+                    <li><a href="./">Instagram</a></li>
+                    <li><a href="./">Twitter</a></li>
+                    <li><a href="./">Email</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-third"> <ul>
+                <li><a href="./">Reddit</a></li>
+                <li><a href="./">Youtube</a></li>
+                <li><a href="./">Linkedin</a></li>
+                <li><a href="./">Telegram</a></li>
+            </ul></div>
+        </div>
+        <div class="footer-textcenter">
+            Copyright © Akaysportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphic Designer','Video Editor','Software Engineer','Trader'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
